@@ -1,0 +1,22 @@
+.div-nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, #672280, #A626D3);
+    color: white;
+    padding: 10px; 
+}
+
+
+.div-nav-left{
+    display: flex;
+}
+.div-nav-left > img {
+    height: 70px;
+    width: 90px;
+    margin-right: 5px;
+}
+
+.div-nav > p{
+    margin-right: 50px;
+    font-size: larger;
+}

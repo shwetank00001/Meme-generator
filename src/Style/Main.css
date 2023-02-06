@@ -1,0 +1,103 @@
+main{
+    padding: 50px;
+}
+
+
+.form{
+    display: grid;
+    grid-template:80px 80px/ 1fr 1fr ;
+    gap: 17px;
+}
+
+.form-input{
+    border-radius: 6px;
+    border: 1px solid #D5D4D8;
+    font-size: large;
+    text-indent: 5px;
+}
+.form-button{
+    grid-column:1/-1 ;
+    color: white;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    font-size: larger;
+
+}
+
+.meme {
+    position: relative;
+    text-align: center;
+
+}
+
+.meme-image {
+    width: 800px;
+    border-radius: 3px;
+}
+
+.meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+
+
+
+
+
+/* .div-secondary-input{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-secondary-input > input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid #D5D4D8;
+    font-size: large;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+
+}
+.div-button >button {
+    width: 1050px;
+    height: 70px;
+    top: 151px;
+    color: white;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    font-size: x-large;
+} */
