@@ -1,9 +1,10 @@
-import Nav from "./Components/Nav";
-import Main  from "./Components/Main";
+import Nav from "./ComponentsNew/Nav";
+import Main from "./ComponentsNew/Main";
+import './App.css'
 
 export default function App() {
   return (
-    <div>
+    <div className="projectbody">
       <Nav />
       <Main />
     </div>
