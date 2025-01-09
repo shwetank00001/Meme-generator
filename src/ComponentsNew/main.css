@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.main > input {
+    padding: 1%;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.buttonGen{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGen > button{
+    width: 25%;
+    padding: 1%;
+    border-radius: 5px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
